@@ -1,33 +1,36 @@
-.nav {
-padding: 20px;
-background-color: black;
-text-transform: uppercase;
-}
+body, html{
+height: 100%;
 
+}
 .nav-link {
-
-
-    text-transform: uppercase;
+text-transform: uppercase;
+    
 }
 
-.navbar-nav {
-    margin-left: 550px;
+.navbar-nav{
+margin-left: 700px;
+margin-right: 700px;
+
+
 }
+
+
 .nav-item {
 
     margin-left: 30px;
     margin-right: 30px;
     letter-spacing: 2px;
+    
+    
 }
 
+.nav-item:hover {
 
-.logo {
+    text-decoration-line: underline;
 
-    float: left;
-    height: 80px;
-    width: 100px;
-    opacity: 0.7;
+
 }
+
 
 .display-4 {
 
@@ -43,3 +46,32 @@ text-transform: uppercase;
 
 }
 
+.bg {
+    /* The image used */
+    position: relative;
+    background-image: url("https://odesza.com/wp-content/uploads/2017/08/ODESZA-Backgrounds-Desktop-800.jpg");
+  
+    /* Half height */
+    height: 70%;
+    
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .klasa{
+   
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+   color: white;
+   font-size: 20px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   background: rgba(0, 0, 0, 0.3);
+   padding: 10px; 
+
+  }
