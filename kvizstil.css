@@ -1,7 +1,13 @@
+
+
+
+
 body, html{
 height: 100%;
 
 }
+
+
 .nav-link {
 text-transform: uppercase;
     
@@ -26,24 +32,8 @@ margin-right: 700px;
 
 .nav-item:hover {
 
-    text-decoration-line: underline;
-
-
-}
-
-
-.display-4 {
-
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-left: 250px;
-    color: black;
-}
-.lead {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-left: 250px;
-
+    border-bottom: 2px solid #f5af19;
+    
 }
 
 .bg {
@@ -75,3 +65,31 @@ margin-right: 700px;
    padding: 10px; 
 
   }
+
+  .istorija{
+
+    margin-left: 380px;
+    margin-right: 500px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Audiowide', cursive;
+    padding: 80px;
+    border-bottom: 2px solid #f5af19;
+    padding-bottom: 5px;
+    
+  }
+
+  .question {
+
+    padding: 100px;
+
+}
+
+.pitanje{
+
+  padding: 100px;
+
+}
+
+  
