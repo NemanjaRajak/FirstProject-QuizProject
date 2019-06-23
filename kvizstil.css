@@ -7,6 +7,10 @@ height: 100%;
 
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 
 .nav-link {
 text-transform: uppercase;
@@ -16,16 +20,24 @@ text-transform: uppercase;
 .navbar-nav{
 margin-left: 700px;
 margin-right: 700px;
+position: fixed;
 
+
+}
+
+.navbar-brand {
+
+  font-family: 'Audiowide', cursive;
 
 }
 
 
 .nav-item {
 
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     letter-spacing: 2px;
+    font-family: 'Audiowide', cursive;
     
     
 }
@@ -63,6 +75,7 @@ margin-right: 700px;
    letter-spacing: 2px;
    background: rgba(0, 0, 0, 0.3);
    padding: 10px; 
+   font-family: 'Audiowide', cursive;
 
   }
 
@@ -80,16 +93,63 @@ margin-right: 700px;
     
   }
 
-  .question {
+  .set{
 
-    padding: 100px;
+   margin-top: 100px;
+}
+.question {
+
+  font-family: 'Audiowide', cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #f5af19;
+}
+
+.pitanje {
+  
+  font-family: 'Audiowide', cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+
 
 }
 
-.pitanje{
+.slika {
 
-  padding: 100px;
+height: 300px;
+width: 600px;
 
 }
+
+.btn {
+  padding: 14px 24px;
+  border: 2px solid #f5af19;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  margin-top: 20px;
+  
+  
+}
+
+.geografija {
+  
+  margin-left: 380px;
+  margin-right: 500px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: black;
+  font-family: 'Audiowide', cursive;
+  padding: 80px;
+  border-bottom: 2px solid #f5af19;
+  padding-bottom: 5px;
+
+
+}
+
+
 
   
