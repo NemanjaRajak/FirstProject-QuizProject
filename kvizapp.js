@@ -23,6 +23,9 @@ fourthButton.disabled = true;
 
 }
 
+function refreshPage(){
+    window.location.reload();
+} 
 
 
 firstButton.onclick = function () {
