@@ -6,13 +6,6 @@ var thirdButton = document.getElementById("trece");
 var fourthButton = document.getElementById("cetvrto");
 
 
-
-
-
-
-
-
-
 //Functions
 
 function disablebutton() {
@@ -27,13 +20,12 @@ function refreshPage(){
     window.location.reload();
 } 
 
+//BUTTON FUNCTION 
 
 firstButton.onclick = function () {
 this.style.backgroundColor = "red";
 this.innerHTML = "Wrong!";
 disablebutton();
-
-
 };
 
 secondButton.onclick = function () {

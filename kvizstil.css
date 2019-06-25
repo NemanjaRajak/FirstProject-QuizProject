@@ -17,12 +17,16 @@ text-transform: uppercase;
     
 }
 
+
+
+.navbar{
+background-color: rgba(0, 0, 0, 0.3);
+}
+
 .navbar-nav{
 margin-left: 700px;
 margin-right: 700px;
 position: fixed;
-
-
 }
 
 .navbar-brand {
@@ -45,6 +49,7 @@ position: fixed;
 .nav-item:hover {
 
     border-bottom: 2px solid #f5af19;
+    transition: border-bottom 0.2s;
     
 }
 
