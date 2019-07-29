@@ -7,12 +7,22 @@ var secondButton = document.getElementById("drugo");
 var thirdButton = document.getElementById("trece");
 var fourthButton = document.getElementById("cetvrto");
 
-//HISTROY QUESTION 2 
 
-var fButton = document.getElementById("first");
-var sButton = document.getElementById("second");
-var tButton = document.getElementById("third");
-var foButton = document.getElementById("fourth");
+//GEOGRAPHY QUESTION 1 
+
+var num1Button = document.getElementById("num1");
+var num2Button = document.getElementById("num2");
+var num3Button = document.getElementById("num3");
+var num4Button = document.getElementById("num4");
+
+//CULTURE QUESTION 1
+var numero1Button = document.getElementById("numero1");
+var numero2Button = document.getElementById("numero2");
+var numero3Button = document.getElementById("numero3");
+var numero4Button = document.getElementById("numero4");
+
+
+
 
 
 //Function Disable 
@@ -22,10 +32,14 @@ firstButton.disabled = true;
 secondButton.disabled = true; 
 thirdButton.disabled = true; 
 fourthButton.disabled = true;
-fButton.disabled = true;
-sButton.disabled = true; 
-tButton.disabled = true; 
-foButton.disabled = true;
+num1Button.disabled = true;
+num2Button.disabled = true; 
+num3Button.disabled = true;
+num4Button.disabled = true;
+numero1Button.disabled = true;
+numero2Button.disabled = true;
+numero3Button.disabled = true;
+numero4Button.disabled = true;
 
 }
 
@@ -62,30 +76,69 @@ this.innerHTML = "Wrong!";
 disablebutton();
 };
 
-//BUTTON FUNCTION HISTORY 2
 
-fButton.onclick = function () {
-this.style.backgroundColor = "red";
-this.innerHTML = "Wrong!";
-disablebutton();
-};
-    
-sButton.onclick = function () {
-this.style.backgroundColor = "red";
-this.innerHTML = "Wrong!";
-disablebutton();
-    
-};
-    
-tButton.onclick = function () {
-this.style.backgroundColor = "red";
-this.innerHTML = "Wrong!";
-disablebutton();
-};
-    
-foButton.onclick = function () {
-this.style.backgroundColor = "green";
-this.innerHTML = "Correct!";
-disablebutton();
+
+//BUTTON FUNCTION GEOGRAPHY 1
+
+num1Button.onclick = function() {
+
+    this.style.backgroundColor = "red";
+    this.innerHTML = "Wrong!"; 
+    disablebutton();
+
 };
 
+num2Button.onclick = function() {
+
+    this.style.backgroundColor = "red";
+    this.innerHTML = "Wrong!"; 
+    disablebutton();
+
+};
+
+num3Button.onclick = function() {
+
+    this.style.backgroundColor = "green";
+    this.innerHTML = "Correct!"; 
+    disablebutton();
+
+};
+
+num4Button.onclick = function() {
+
+    this.style.backgroundColor = "red";
+    this.innerHTML = "Wrong!"; 
+    disablebutton();
+
+};
+
+//BUTTON FUNCTION CULTURE 1
+
+numero1Button.onclick = function() {
+
+    this.style.backgroundColor = "green";
+    this.innerHTML = "Correct!"; 
+    disablebutton();
+
+};
+numero2Button.onclick = function() {
+
+    this.style.backgroundColor = "red";
+    this.innerHTML = "Wrong!"; 
+    disablebutton();
+
+};
+numero3Button.onclick = function() {
+
+    this.style.backgroundColor = "red";
+    this.innerHTML = "Wrong!"; 
+    disablebutton();
+
+};
+numero4Button.onclick = function() {
+
+    this.style.backgroundColor = "red";
+    this.innerHTML = "Wrong!"; 
+    disablebutton();
+
+};
