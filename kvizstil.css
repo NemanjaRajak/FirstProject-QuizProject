@@ -101,6 +101,8 @@ position: fixed;
   .set{
 
    margin-top: 100px;
+   max-width: 600px;
+   
 }
 .question {
 
@@ -167,6 +169,21 @@ width: 600px;
   padding-bottom: 5px;
 
 }
+
+.ostalo{
+  margin-left: 380px;
+  margin-right: 500px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: black;
+  font-family: 'Audiowide', cursive;
+  padding: 80px;
+  border-bottom: 2px solid #f5af19;
+  padding-bottom: 5px;
+
+}
+
+
 
 
 
